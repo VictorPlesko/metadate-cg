@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsu.plesko.controller.Controller">
+   <children>
+      <Button fx:id="idButton" layoutX="41.0" layoutY="646.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="390.0" text="Select files" />
+      <TableView fx:id="table" prefHeight="631.0" prefWidth="1024.0">
+        <columns>
+          <TableColumn fx:id="fileNameColumn" prefWidth="319.0" text="File name" />
+          <TableColumn fx:id="imageSizeColumn" prefWidth="189.0" text="Image size (in pixels)" />
+            <TableColumn fx:id="resolutionColumn" prefWidth="212.0" text="Resolution (dot / inch)" />
+            <TableColumn fx:id="colorDepthColumn" prefWidth="159.0" text="Color depth" />
+            <TableColumn fx:id="compressionColumn" prefWidth="144.0" text="Compression" />
+        </columns>
+      </TableView>
+      <Button fx:id="idDirButton" layoutX="564.0" layoutY="646.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="390.0" text="Select directory" />
+   </children>
+</AnchorPane>

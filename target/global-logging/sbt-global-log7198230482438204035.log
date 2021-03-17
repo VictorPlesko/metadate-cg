@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, Some(c8042981-2f44-4c4a-b54b-5549652345ac), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: assembly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to D:\Учёба\3 курс\6 семестр\Компьютераная графика\Lab2Scala\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to 5 files (Run the task at debug level to see details)[0m
+[0m[[0m[0minfo[0m] [0m[0mStrategy 'rename' was applied to 3 files (Run the task at debug level to see details)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 12 s, completed 06.03.2021 16:37:20[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
